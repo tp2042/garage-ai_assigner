@@ -96,3 +96,4 @@ def complete_job(job_card_id, outcome_score):
         if eng_id and eng_id[0]:
             mark_engineer_available(eng_id[0])
         print(f"Job {job_card_id} marked completed with score {outcome_score}")
+
